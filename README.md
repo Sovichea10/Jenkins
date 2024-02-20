@@ -11,3 +11,12 @@
 [![Gitter](https://img.shields.io/gitter/room/jenkinsci/jenkins)](https://app.gitter.im/#/room/#jenkinsci_jenkins:gitter.im)
 
 Jenkins is an open source automation server. It helps automate the parts of software development related to building, testing, and deploying, facilitating continuous integration and continuous delivery
+
+## Problem and Solving
+
+### GPG Error
+```
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys <PUB_KEY_GPG>
+sudo apt-get update
+```
+`Then go to install Jenkins peacefully😘`
